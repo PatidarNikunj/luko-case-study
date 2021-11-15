@@ -1,10 +1,12 @@
-import * as React from 'react';
-import renderer from 'react-test-renderer';
+import React from "react";
+import renderer from "react-test-renderer";
 
-import { MonoText } from '../StyledText';
+import { CommonTextView } from "../CommonTextView";
 
 it(`renders correctly`, () => {
-  const tree = renderer.create(<MonoText>Snapshot test!</MonoText>).toJSON();
+  const tree = renderer
+    .create(<CommonTextView>Snapshot test!</CommonTextView>)
+    .toJSON();
 
   expect(tree).toMatchSnapshot();
 });

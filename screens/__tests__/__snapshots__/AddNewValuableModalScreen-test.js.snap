@@ -1,0 +1,524 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test case #1 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "paddingLeft": 40,
+          "paddingRight": 40,
+          "paddingTop": 32,
+        }
+      }
+    >
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "bottom": 0,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Array [
+                  Object {
+                    "opacity": 1,
+                  },
+                  Object {},
+                  undefined,
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000",
+                    },
+                    Array [
+                      Array [
+                        Object {
+                          "color": "rgba(45, 80, 230, 1)",
+                        },
+                        undefined,
+                      ],
+                      Object {
+                        "fontFamily": "circular-medium",
+                      },
+                    ],
+                  ]
+                }
+              >
+                Cancel
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Array [
+                  Object {
+                    "opacity": 1,
+                  },
+                  Object {},
+                  undefined,
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000",
+                    },
+                    Array [
+                      Array [
+                        Object {
+                          "color": "rgba(45, 80, 230, 1)",
+                        },
+                        Object {
+                          "color": "lightgrey",
+                        },
+                      ],
+                      Object {
+                        "fontFamily": "circular-medium",
+                      },
+                    ],
+                  ]
+                }
+              >
+                Add
+              </Text>
+            </View>
+          </View>
+          <RCTScrollView
+            showsVerticalScrollIndicator={false}
+          >
+            <View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "marginTop": 52,
+                  }
+                }
+              >
+                <View
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Array [
+                      Object {
+                        "opacity": 1,
+                      },
+                      Object {
+                        "alignItems": "center",
+                        "borderColor": "rgba(200, 200, 200, 1)",
+                        "borderRadius": 300,
+                        "borderStyle": "dashed",
+                        "borderWidth": 2,
+                        "height": 300,
+                        "justifyContent": "center",
+                        "width": 300,
+                      },
+                    ]
+                  }
+                >
+                  <Text />
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000",
+                        },
+                        Array [
+                          Object {
+                            "fontSize": 17,
+                          },
+                          Object {
+                            "fontFamily": "circular-medium",
+                          },
+                        ],
+                      ]
+                    }
+                  >
+                    Add Photo
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "marginTop": 40,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                      },
+                      Array [
+                        undefined,
+                        Object {
+                          "fontFamily": "circular-medium",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  Name
+                </Text>
+                <TextInput
+                  allowFontScaling={true}
+                  blurOnSubmit={false}
+                  maxLength={50}
+                  onChangeText={[Function]}
+                  onKeyPress={[Function]}
+                  onSubmitEditing={[Function]}
+                  placeholder="Bracelet"
+                  placeholderTextColor="rgba(192, 190, 184, 1)"
+                  rejectResponderTermination={true}
+                  returnKeyType="next"
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "rgba(255, 255, 255, 1)",
+                        "borderColor": "rgba(234, 233, 227, 1)",
+                        "borderRadius": 10,
+                        "borderWidth": 1,
+                        "fontFamily": "circular-medium",
+                        "fontSize": 17,
+                        "height": 78.85714285714286,
+                        "marginTop": 10,
+                        "paddingHorizontal": 30,
+                        "paddingVertical": 24,
+                        "width": "100%",
+                      },
+                    ]
+                  }
+                  underlineColorAndroid="transparent"
+                  value=""
+                />
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                      },
+                      Array [
+                        Object {
+                          "color": "red",
+                          "marginLeft": 4,
+                          "marginTop": 10,
+                        },
+                        Object {
+                          "fontFamily": "circular-medium",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  Please provide a name to the product
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "marginTop": 40,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                      },
+                      Array [
+                        undefined,
+                        Object {
+                          "fontFamily": "circular-medium",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  Category
+                </Text>
+                <View
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "rgba(255, 255, 255, 1)",
+                        "borderColor": "rgba(234, 233, 227, 1)",
+                        "borderRadius": 10,
+                        "borderWidth": 1,
+                        "fontFamily": "circular-medium",
+                        "fontSize": 17,
+                        "height": 78.85714285714286,
+                        "marginTop": 10,
+                        "paddingHorizontal": 30,
+                        "paddingVertical": 24,
+                        "width": "100%",
+                      },
+                      Object {
+                        "justifyContent": "center",
+                        "marginTop": 10,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000",
+                        },
+                        Array [
+                          undefined,
+                          Object {
+                            "fontFamily": "circular-medium",
+                          },
+                        ],
+                      ]
+                    }
+                  >
+                    Select a category...
+                  </Text>
+                  <Text />
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "marginTop": 40,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                      },
+                      Array [
+                        undefined,
+                        Object {
+                          "fontFamily": "circular-medium",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  Value
+                </Text>
+                <View
+                  style={
+                    Object {
+                      "justifyContent": "center",
+                      "marginTop": 10,
+                    }
+                  }
+                >
+                  <TextInput
+                    allowFontScaling={true}
+                    keyboardType="numeric"
+                    maxLength={10}
+                    onChangeText={[Function]}
+                    onSubmitEditing={[Function]}
+                    placeholder="700"
+                    placeholderTextColor="rgba(192, 190, 184, 1)"
+                    rejectResponderTermination={true}
+                    returnKeyType="next"
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 1)",
+                          "borderColor": "rgba(234, 233, 227, 1)",
+                          "borderRadius": 10,
+                          "borderWidth": 1,
+                          "fontFamily": "circular-medium",
+                          "fontSize": 17,
+                          "height": 78.85714285714286,
+                          "marginTop": 10,
+                          "paddingHorizontal": 30,
+                          "paddingVertical": 24,
+                          "width": "100%",
+                        },
+                        Object {
+                          "marginTop": 0,
+                          "paddingLeft": 30,
+                          "paddingRight": 60,
+                        },
+                      ]
+                    }
+                    underlineColorAndroid="transparent"
+                    value=""
+                  />
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000",
+                        },
+                        Array [
+                          Object {
+                            "color": "rgba(107, 102, 81, 1)",
+                            "fontSize": 17,
+                            "marginRight": 24,
+                            "position": "absolute",
+                            "right": 0,
+                          },
+                          Object {
+                            "fontFamily": "circular-medium",
+                          },
+                        ],
+                      ]
+                    }
+                  >
+                    €
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "marginTop": 40,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                      },
+                      Array [
+                        undefined,
+                        Object {
+                          "fontFamily": "circular-medium",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  Description
+                </Text>
+                <TextInput
+                  allowFontScaling={true}
+                  maxLength={300}
+                  multiline={true}
+                  onChangeText={[Function]}
+                  placeholder="Optional"
+                  placeholderTextColor="rgba(192, 190, 184, 1)"
+                  rejectResponderTermination={true}
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "rgba(255, 255, 255, 1)",
+                        "borderColor": "rgba(234, 233, 227, 1)",
+                        "borderRadius": 10,
+                        "borderWidth": 1,
+                        "fontFamily": "circular-medium",
+                        "fontSize": 17,
+                        "height": 78.85714285714286,
+                        "marginTop": 10,
+                        "paddingHorizontal": 30,
+                        "paddingVertical": 24,
+                        "width": "100%",
+                      },
+                      Object {
+                        "height": 210.28571428571428,
+                        "paddingTop": 20,
+                      },
+                    ]
+                  }
+                  underlineColorAndroid="transparent"
+                  value=""
+                />
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;
